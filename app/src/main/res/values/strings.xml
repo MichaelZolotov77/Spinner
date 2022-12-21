@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lists</string>
+    <string name="item_selected_message">You have selected the item: %1$s</string>
+    <string name="character_info">Character id: %1$d </string>
+</resources>
