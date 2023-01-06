@@ -73,7 +73,7 @@ class BaseAdaptorActivity : AppCompatActivity(){
     private fun showCharacterInfo(character: Character) {
         val dialog = AlertDialog.Builder(this)
             .setTitle(character.name)
-            .setMessage(getString(R.string.character_info, character.id))
+            .setMessage(getString(R.string.character_info, character.name, character.id))
             .setPositiveButton("Ok") {_,_ ->}
             .create()
         dialog.show()
